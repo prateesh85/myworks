@@ -1,0 +1,423 @@
+@font-face {
+	font-family: 'Noto Sans';
+	/*src: url('https://share.ey.net/sites/webexrequestform/SiteAssets/fonts/NotoSans-Regular-webfont.eot');
+	src: url('https://share.ey.net/sites/webexrequestform/SiteAssets/fonts/NotoSans-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('https://share.ey.net/sites/webexrequestform/SiteAssets/fonts/NotoSans-Regular-webfont.woff') format('woff'), url('https://share.ey.net/sites/webexrequestform/SiteAssets/fonts/NotoSans-Regular-webfont.ttf') format('truetype'), url('https://share.ey.net/sites/webexrequestform/SiteAssets/fonts/NotoSans-Regular-webfont.svg') format('svg');*/
+	font-weight: normal;
+	font-style: normal;
+}
+        * {
+            font-family: 'Noto Sans';
+            font-weight: 500;
+        }
+
+        body {
+            font-size: 13px;
+            background-color: #fff;
+        }
+a{
+    text-decoration: none !important;
+}
+        .hint--top:after {
+            white-space: normal !important;
+            width: 400px !important;
+            line-height: 15px !important;
+        }
+
+        #suiteBar *, #s4-ribbonrow * {
+            box-sizing: content-box !important;
+            -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box;
+        }
+
+#s4-workspace {
+    overflow: auto;
+    position: relative;
+    width: 100% !important;
+}
+
+
+#sideNavBox,
+.ms-mpSearchBox {
+	display: none;
+}
+
+.ms-core-pageTitle {
+	display: none;
+}
+
+#contentRow {
+	padding: 0;
+}
+
+#s4-titlerow {
+	padding-top: 0;
+	display: block !important;
+	height: 95px;
+}
+
+#site-title {
+	background: rgba(53, 49, 49, 1);
+	color: silver;
+	height: 30px;
+	border-bottom: 1px solid silver;
+	line-height: 30px;
+	padding-left: 48px;
+	font-size: 14px;
+}
+
+#titleAreaBox {
+	background-color: #353131 !important;
+	margin: 0;
+	width: 100%;
+}
+
+#titleAreaRow > div:last-child {
+    position: absolute;
+    right: 7%;
+}
+
+#siteIcon {
+	height: 63px;
+	margin: 5px 40px 0 40px;
+	width: 63px;
+	overflow: hidden;
+	padding: 0;
+}
+
+.ms-siteicon-img {
+	display: block;
+	max-width: 55px;
+	max-height: 55px;
+}
+
+.ms-core-menu-box {
+	z-index: 9999 !important;
+}
+
+#titleAreaRow .ms-core-listMenu-root {
+	height: 68px;
+}
+
+.ms-core-listMenu-root > li.static.selected {
+	/*background: #000;
+	border-bottom: 5px solid #fee500; */
+	height: 63px;
+}
+
+.ms-core-listMenu-root > li.static {
+	text-align: center;
+	line-height: 63px;
+	height: 63px;
+	padding: 0 7px;
+}
+
+.ms-core-listMenu-root > li.dynamic-children > ul.dynamic {
+	min-width: 310px;
+	padding: 0;
+	margin-top: 18px;
+	box-shadow: none;
+	border: none;
+	margin-left: -2px;
+}
+
+.ms-core-listMenu-root > li.dynamic-children > ul.dynamic > li {
+	padding: 0 20px;
+	height: 50px;
+	line-height: 50px;
+	background: #000;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.ms-core-listMenu-root > li.dynamic-children > ul.dynamic > li:hover {
+	background: #333;
+}
+
+.ms-core-listMenu-root > li.static:hover {
+	border-bottom: 5px solid rgb(255, 230, 0);
+	background: #000;
+}
+
+.ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item {
+	margin: 0;
+}
+
+.ms-core-listMenu-root > li > ul.static > li {
+	height: inherit;
+	line-height: 72px;
+	text-align: center;
+	text-transform: uppercase;
+	min-width: 105px;
+	padding: 0 2px;
+}
+
+.ms-core-listMenu-root > li > ul.static > li:hover {
+	background: #000;
+	border-bottom: 8px solid rgba(254, 229, 0, 1);
+}
+
+.ms-core-listMenu-root > li > ul.static > li {
+	margin-right: 20px;
+}
+
+.ms-core-listMenu-root > li > ul.static > li.selected {
+	/*background: #000;
+	border-bottom: 8px solid rgba(254, 229, 0, 1); */
+}
+
+.ms-core-listMenu-root > li > ul.static > li > ul.dynamic {
+	padding: 0;
+	margin: 0;
+	margin-left: 65px;
+	margin-top: 28px;
+}
+
+.ms-core-listMenu-root > li > ul.static > li > ul.dynamic > li.dynamic {
+	height: 50px;
+	line-height: 50px;
+	background-color: #000;
+	border-bottom: 1px solid #333;
+	min-width: 150px;
+}
+
+.ms-core-listMenu-root > li > ul.static > li > ul.dynamic > li.dynamic:hover {
+	background-color: #333;
+}
+
+#rbn-toggle {
+	float: right;
+	color: silver;
+	margin-right: 5px;
+	font-size: 10px;
+	cursor: pointer;
+}
+
+.rbn-hide::before {
+	content: 'Hide ';
+}
+
+.rbn-show::before {
+	content: 'Show ';
+}
+
+.menu-item-text {
+	color: silver;
+}
+
+#contentBox {
+	margin: 0;
+}
+
+.ms-wikicontent {
+	padding: 0 !important;
+}
+
+.ms-rte-layoutszone-inner {
+	margin: 0;
+	border: 0;
+}
+
+#layoutsTable td {
+	padding: 0;
+}
+
+.fixed-top#titleAreaBox {
+    position: fixed;
+    z-index: 1000;
+    width: 98.75vw;
+    height: 48px;
+}
+
+
+.fixed-top #titleAreaRow {
+	height: 50px;
+}
+
+.fixed-top #siteIcon {
+	height: 40px;
+	width: 40px;
+	margin-right: 49px;
+}
+
+.fixed-top #DeltaSiteLogo {
+	height: 40px;
+}
+
+.fixed-top .ms-siteicon-a {
+	max-height: 40px;
+	max-width: 40px;
+}
+
+.fixed-top .ms-siteicon-img {
+	max-height: 40px;
+	max-width: 40px;
+}
+
+.fixed-top #titleAreaRow .ms-breadcrumb-box {
+	height: 50px;
+}
+
+.fixed-top #titleAreaRow .ms-core-listMenu-root {
+	height: 50px;
+}
+
+.fixed-top #titleAreaRow .ms-core-listMenu-root > li {
+	line-height: 45px;
+	height: 45px;
+}
+
+.fixed-top .ms-core-listMenu-root > li.static.selected {
+	height: 35px;
+	border-bottom-width: 5px;
+}
+
+.fixed-top #pageTitle {
+	height: 40px;
+	font-size: 19px;
+}
+
+.fixed-top #DeltaPlaceHolderPageTitleInTitleArea {
+	line-height: 40px;
+}
+.fixed-top .ms-core-listMenu-root > li.dynamic-children > ul.dynamic {
+    min-width: 300px;
+    padding: 0;
+    margin-top: 10px;
+    box-shadow: none;
+    border: none;
+    margin-left: -2px;
+	top:40px !important 
+}
+
+#DeltaPlaceHolderPageDescription {
+	display: none;
+}
+
+@media screen and (min-width:1600px) {
+	#siteIcon {
+		margin: 5px 55px 0 55px;
+	}
+	.fixed-top#titleAreaBox {
+		width: 98.9%;
+	}
+	.fixed-top #siteIcon {
+		margin-right: 61px;
+	}
+}
+
+
+/*Site Based Custom Rules*/
+
+.ms-pub-contentLayout {
+	padding: 0 !important;
+}
+
+.contentwrapper {
+	margin: 0 !important;
+}
+
+#s4-bodyContainer {
+    width: 100% !important;
+    min-height: 93vh !important;
+    margin: 0px !important;
+}
+
+
+* {
+	font-family: 'Noto Sans';
+	font-size: 14px;
+	font-weight: 400;
+	color: #646464;
+}
+
+.menu-item-text {
+	color: white;
+	font-size: 13px !important;
+}
+
+.ms-listMenu-editLink {
+	display: none !important;
+}
+
+#pageContentTitle {
+	display: none;
+}
+
+#searchInputBox {
+    float: right;
+    padding-top: 0px;
+    position: relative;
+    margin-top: -21%;
+    left: 46%;
+}
+.ms-core-header .ms-srch-sb-border {
+    border: 1px solid #ABABAB;
+    border-radius: 7px;
+    padding-bottom: 8px;
+    padding-top: 3px;
+}
+.ms-core-header .ms-srch-sb-prompt.ms-srch-sb-prompt {
+    color: #777;
+    font-weight: 600;
+}
+
+
+ul.dynamic {
+	background-color: rgba(53, 49, 49, 1);
+	text-align: left;
+}
+
+.ms-breadcrumb-box {
+	padding-top: 0px!important;
+	padding-bottom: 0px!important;
+}
+
+.ms-belltown-searcharea {
+	width: 195px;
+	padding-top: 54px;
+}
+
+.ms-belltown-authenticated .ms-belltown-searcharea {
+	padding-top: 0px;
+}
+
+#disclaimerDiv {
+	width: 90% !important;
+	margin-top: 0px !important;
+	background: #fff !important;
+	padding: .5% 5% !important;
+	font-size: 10px !important;
+	text-align: center;
+	border-top: 1px solid #ddd;
+	height: 4.8vh;
+	box-sizing: content-box;
+}
+
+#disclaimerDiv * {
+	font-size: 10px !important;
+	text-align: center;
+	font-family: "Noto Sans" !important;
+}
+.ms-webpartzone-cell {
+    margin: 0;
+	padding: 0 !important;
+}
+
+/*
+.ms-webpartzone-cell {
+	margin: 0;
+	
+}
+
+.ms-webpart-titleText-withMenu {
+	margin: 0 !important;
+}
+*/
+
+#ms-belltown-table {
+	padding-bottom: 0px;
+}
+#s4-bodyContainer {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 40px;
+}

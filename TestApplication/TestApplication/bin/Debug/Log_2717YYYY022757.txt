@@ -1,0 +1,11 @@
+Created Field - Status
+Created Field - Taken By
+Created Field - My Experiences PoC Email
+Created Field - My Experiences PoC Name
+Created Field - Approval Status
+Created Field - PoC Region
+Created Field - Indicate if opportunity is a short term job (16 hours or less)
+Created Field - Urgent
+Created Field - Engagement Number
+Created Field - Do you want to close this opportunity?
+Created Field - Names

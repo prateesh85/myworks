@@ -1,0 +1,4 @@
+Created Field - AvlListItemID
+Created Field - Start date
+Created Field - Number of days available
+Created Field - End Date

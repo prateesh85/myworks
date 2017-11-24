@@ -1,0 +1,10 @@
+Created Field - Number of hours
+Created Field - Engagement Number
+Created Field - PoC Region
+Created Field - My Experiences PoC Email
+Created Field - My Experiences PoC Name
+Created Field - Status
+Created Field - Taken By
+Created Field - Approval Status
+Created Field - Urgent
+Created Field - Indicate if opportunity is a short term job (16 hours or less)

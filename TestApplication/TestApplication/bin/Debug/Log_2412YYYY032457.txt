@@ -1,0 +1,10 @@
+Created View - My submissions
+Created View - Approve/reject Items
+Created View - Approve Opportunities
+Created View - My Submissions
+Created View - Short Term Jobs
+Created View - User Dashboard
+Created View - Trending Opp By Urgent
+Created View - Trending Opp By New
+Created View - My Submissions - EM
+Created View - WF

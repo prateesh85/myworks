@@ -1,0 +1,3 @@
+<div id="btnWrapper"></div>
+
+<script src="../SiteAssets/Redirection/js/configuration.js"></script>

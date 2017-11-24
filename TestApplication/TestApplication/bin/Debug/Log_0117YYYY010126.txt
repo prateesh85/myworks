@@ -1,0 +1,8 @@
+Created View - Bulk Upload
+Created View - Approve Opportunities
+Created View - My Submissions
+Created View - Short Term Jobs
+Exception adding view *** My Submissions - EM *** - Column 'CloseOpportunity' does not exist. It may have been deleted by another user.
+Created View - UserDashboard
+Created View - Trending Opp By Urgent
+Created View - Trending Opp By New

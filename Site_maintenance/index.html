@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <style type="text/css">
+        #s4-bodyContainer {
+            padding-bottom: 0 !important;
+        }
+
+        #titlerow {
+            display: none !important;
+        }
+
+        a:visited {
+            color: #FED100 !important;
+        }
+
+        a:hover {
+            color: #f9fb20 !important;
+        }
+
+        .total {
+            background-image: url("../img/banner_02.jpg");
+            height: 78vh;
+            background-size: 100% 100%;
+        }
+
+        .imgicon {
+            width: 5%;
+            float: left;
+            padding-right: 1em;
+        }
+
+        .homelinks {
+            float: left;
+            width: 42%;
+            margin-top: 3em;
+            margin-left: 6em;
+        }
+
+        .linktitle {
+            padding-top: 0.3em;
+            font-size: 16px;
+            color: white;
+        }
+
+        .bg {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(30, 30, 30, 0.7);
+        }
+
+        .homelinks {
+            cursor: pointer;
+        }
+
+        .linktitle a {
+            color: white;
+        }
+
+        .welcome {
+            font-weight: 700;
+            font-size: 30px;
+            color: white;
+            text-align: center;
+            position: relative;
+            top: 4em;
+        }
+
+        .content {
+            padding: 1%;
+            color: white;
+            position: relative;
+            top: 9em;
+        }
+    </style>
+    <!-- Bootstrap -->
+    <link href="../SiteAssets/Site_maintenance/assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="../SiteAssets/Site_maintenance/assets/css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="../SiteAssets/Site_maintenance/assets/css/font-awesome.css" rel="stylesheet" />
+
+    <!-- siimple style -->
+    <link href="../SiteAssets/Site_maintenance/assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../SiteAssets/Site_maintenance/EYStandard/EY_Standard_Style.min.css" />
+
+    <script src="../SiteAssets/Site_maintenance/assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../SiteAssets/Site_maintenance/assets/js/jquery.countdown.min.js" type="text/javascript"></script>
+    <script src="../SiteAssets/Site_maintenance/EYStandard/EY_Standard_Script.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#countdown').countdown('2017/10/09', function (event) {
+                if (parseInt(event.strftime('%d')) > 1) {
+                    $(this).html(event.strftime('%d days <br /> %H:%M:%S'));
+                }
+                else if (parseInt(event.strftime('%d')) == 1) {
+                    $(this).html(event.strftime('%d day <br /> %H:%M:%S'));
+                }
+                else {
+                    $(this).html(event.strftime('%H:%M:%S'));
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="wrapper" class="total bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" style="background:rgba(128, 128, 128,0.9)">
+                    <h1>
+                        <img src="../SiteAssets/Site_maintenance/assets/img/CE_Logo.png" alt="US Community Engagment Funding" style="width:40%;height:210px" />
+                    </h1> <h3 class="subtitle"> The US Community Engagment Funding team is building a new version for you! The revamped site will be launched <a style="color: rgba(255, 210, 0, 1);font-size:24px;text-decoration:underline!important" href="https://internal.ey.net/sites/communityengagement/funding/" target="_blank">here</a> on Oct 9th. </h3> <div id="countdown"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+Created Field - If Quick Win indicate number of hours required (Maximum is 16 hours)
+Created Field - Engagement Number (Optional)
+Created Field - My Region PoC
+Created Field - My Experiences PoC Email
+Created Field - My Experiences PoC Name
+Created Field - Status
+Created Field - Taken By
+Created Field - Approval Status
+Created Field - Urgent
+Created Field - Indicate if opportunity is a Quick Win (requiring 16 hours or less)

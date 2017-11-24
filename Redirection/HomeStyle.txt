@@ -1,0 +1,5 @@
+<style>
+#suiteBar, #s4-ribbonrow, #s4-workspace{
+   display:none;
+}
+</style>

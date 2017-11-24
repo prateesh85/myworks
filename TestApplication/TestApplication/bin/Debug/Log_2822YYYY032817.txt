@@ -1,0 +1,8 @@
+Created Field - Indicate Interest
+Created Field - Is Renewed
+Created Field - Renew Count
+Exception adding field *** ReminingRenewCount *** - The formula refers to a column that does not exist.  Check the formula for spelling mistakes or change the non-existing column to an existing column.
+Created Field - Opt Out (Email Notification)
+Created Field - Start date
+Created Field - Number of days available
+Exception adding field *** EndDate *** - The formula refers to a column that does not exist.  Check the formula for spelling mistakes or change the non-existing column to an existing column.

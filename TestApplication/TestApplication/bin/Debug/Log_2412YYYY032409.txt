@@ -1,0 +1,12 @@
+Created Field - Indicate if opportunity is a Quick Win (requiring 16 hours or less)
+Created Field - If Quick Win indicate number of hours required (Maximum is 16 hours)
+Created Field - Urgent
+Created Field - Engagement Number (Optional)
+Created Field - My Experiences PoC Name
+Created Field - My Experiences PoC Email
+Created Field - Status
+Created Field - Taken By
+Created Field - Do you want to close this opportunity?
+Created Field - Name(s) of resource(s) identified
+Created Field - Need Approval
+Created Field - My Region PoC

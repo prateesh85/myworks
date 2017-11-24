@@ -1,0 +1,5 @@
+User - anz\sunny.solanki - not found. Error Details : 
+Object reference not set to an instance of an object on server. The object is associated with method GetPropertiesFor.
+   at Microsoft.SharePoint.Client.ClientObject.CheckUninitializedProperty(String propName)
+   at Microsoft.SharePoint.Client.UserProfiles.PersonProperties.get_Email()
+   at TestApplication.AccessRequests.ExportToExcel(ClientContext destCtx, ListItemCollection listFields) in c:\Users\prateesh.nair\Documents\Projects\TestApplication\TestApplication\AccessRequests.cs:line 70
